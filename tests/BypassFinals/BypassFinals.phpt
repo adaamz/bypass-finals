@@ -20,4 +20,4 @@ Assert::false($rc->isFinal());
 Assert::false($rc->getMethod('finalMethod')->isFinal());
 Assert::same(123, FinalClass::FINAL);
 Assert::same(456, (new FinalClass)->final());
-Assert::same('bool', $rc->getMethod('withTypehints')->getReturnType());
+Assert::same('bool', (string)$rc->getMethod('withTypehints')->getReturnType());
