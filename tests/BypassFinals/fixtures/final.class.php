@@ -12,4 +12,9 @@ final class FinalClass
 	{
 		return 456;
 	}
+	
+	function withTypehints(string $abc): bool
+	{
+		return false;
+	}
 }
